@@ -7,7 +7,7 @@
 using namespace std;
 
 int main () {
-	freopen("int.txt", "w", stdout);
+	freopen("in.txt", "w", stdout);
 	srand(time(NULL));
 	int tst = 22;
 	vector <int> n(tst);

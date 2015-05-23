@@ -14,7 +14,7 @@ double getMiliSecond(int time) {
 
 int main () {
 	std::ios_base::sync_with_stdio(false);
-	freopen("int.txt", "r", stdin);
+	freopen("in.txt", "r", stdin);
 	freopen("/Applications/XAMPP/xamppfiles/htdocs/tsp-chart/n-time.php", "w", stdout);
 	cout.precision(2);
 	cout.setf(ios::fixed);
@@ -57,7 +57,6 @@ int main () {
 	cout << "]));" << endl;
 	fclose(stdout);
 	freopen("/Applications/XAMPP/xamppfiles/htdocs/tsp-chart/apx-ratio.php", "w", stdout);
-	// freopen("out.txt", "w", stdout);
 	cout << "<?php\necho json_encode(array(\n\t'data' => ";
 	cout << "[" << endl;
 	cout << "[\"Input Size\", \"Exact Solution\", \"2-Approximation\"]," << endl;

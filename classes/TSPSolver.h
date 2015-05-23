@@ -83,7 +83,6 @@ class TSPSolver {
 		this->tree = mst.getMST();
 		this->preOrder.clear();
 		this->dfs(0, 0);
-		cerr << endl;
 		for (int i = 0; i < this->n; i++) {
 			ans += this->mat[preOrder[i]][preOrder[(i+1)%this->n]];
 		}
